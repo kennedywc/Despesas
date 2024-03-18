@@ -1,0 +1,49 @@
+.create-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.create_form-content {
+    border: 1px solid #D2D2D2;
+    border-radius: 8px;
+    padding: 18px;
+    margin: 2% 0;
+}
+
+.op-create {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.op-create .title-form{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.op-create select,
+.op-create input {
+    height: 28px;
+    border: none;
+    outline-color: #FF900E;
+    border-bottom: 1px solid #D2D2D2;
+    background-color: transparent;
+}
+
+.bnt-form button{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}

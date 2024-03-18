@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: #F4F4F4;
+  }
+  
+.grid-content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.conteudo-principal {
+    background-color: white;
+    min-height: 80%;
+    border-radius: 8px;
+    margin: 24px;
+    padding: 2% 4%;
+}

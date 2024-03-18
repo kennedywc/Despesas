@@ -1,0 +1,49 @@
+.header-content {
+    padding: 0 34px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FF900E;
+    margin: 34px 0;
+    cursor: pointer;
+}
+
+.logo::before {
+    content: "";
+    background-image: url("../../../public/assets/icons/Icon_logo.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 4px;
+    vertical-align: middle;
+    width: 44px;
+    height: 44px;
+}
+
+
+.nav-items {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+.nav-items::before {
+    content: "";
+    background-image: url("../../../public/assets/icons/icon_black_despesas.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 4px;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,82 @@
+.table{
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px 8px 4px 4px;
+    border: 1px solid #D2D2D2;
+}
+
+.table-content {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.title-content  .title-th {
+    font-weight: 400;
+    font-size: 18px;
+
+    color: black;
+    padding: 18px;
+}
+
+.title-content,
+.table-row {
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.table-row > td {
+    font-weight: 200;
+    padding: 18px;
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+.table-row > td:first-child::before {
+    content: "";
+    background-image: url("../../../public/assets/icons/icon_orange_despesas.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 16px;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+}
+
+.table-bnt-content .table-bnt:first-child {
+    margin-right: 10px;
+}
+
+.table-bnt {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.paginator-content{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.paginator-content button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 22px;
+    cursor: pointer;
+    color: #0084CE;
+    user-select: text;
+}
+
+.paginator-content button:disabled {
+    color: #D2D2D2;
+}
